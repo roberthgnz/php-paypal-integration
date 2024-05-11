@@ -37,8 +37,7 @@
   </div>
 
   <!-- Initialize the JS-SDK -->
-  <script
-    src="https://www.paypal.com/sdk/js?client-id=AUksmPOioOda8-HoG1Wkh5jk4IpkZ5b1PJwuWcEe-v27rW1YZgb7yN93ypgqEJZZ9hD4zaM46SCE7ahb&currency=EUR&components=buttons&enable-funding=venmo"
+  <script src="https://www.paypal.com/sdk/js?client-id={CLIENT_ID}&currency=EUR&components=buttons&enable-funding=venmo"
     data-sdk-integration-source="developer-studio"></script>
   <script src="checkout.js"></script>
 
